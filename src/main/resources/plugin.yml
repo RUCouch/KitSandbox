@@ -1,0 +1,42 @@
+name: KitSandbox
+version: 1.0.0
+main: dev.kitsandbox.KitSandboxPlugin
+api-version: '1.21'
+description: Player kits and expiring kit sharing for sandbox PvP.
+commands:
+  kit:
+    description: Save, load, view, delete, and share player kits.
+    usage: /kit <save|delete|view|share|load|1-9>
+    aliases: [k]
+    permission: kitsandbox.use
+  k1:
+    description: Load kit 1.
+    permission: kitsandbox.use
+  k2:
+    description: Load kit 2.
+    permission: kitsandbox.use
+  k3:
+    description: Load kit 3.
+    permission: kitsandbox.use
+  k4:
+    description: Load kit 4.
+    permission: kitsandbox.use
+  k5:
+    description: Load kit 5.
+    permission: kitsandbox.use
+  k6:
+    description: Load kit 6.
+    permission: kitsandbox.use
+  k7:
+    description: Load kit 7.
+    permission: kitsandbox.use
+  k8:
+    description: Load kit 8.
+    permission: kitsandbox.use
+  k9:
+    description: Load kit 9.
+    permission: kitsandbox.use
+permissions:
+  kitsandbox.use:
+    description: Allows use of kit commands.
+    default: true
